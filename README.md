@@ -38,9 +38,9 @@ Inside this project there is a calculator app. If we change the code and add a b
 
 To be able to use Google's Gemini API, you'll need a API Key. Create an account on [Google AI Studio](https://aistudio.google.com/), if you don't already have one, and click the "Create API Key" button.
 
-Copy the generated API key, create a `.env` file the project's root directory, and paste it into in. The key need to be linked to a key called "GEMINI_API_KEY", like this:
+Copy the generated API key, create a `.env` file in the project's root directory, and paste it into in. The key need to be linked to a key called "GEMINI_API_KEY", like this:
 
-```
+```properties
 GEMINI_API_KEY="your_api_key_here"
 ```
 
